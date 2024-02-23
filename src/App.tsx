@@ -1,40 +1,29 @@
 import './App.css';
-import styled from 'styled-components';
+import Header from "../src/layout/header/Header";
+import {Main} from "./layout/sections/main/Main";
+import {Skills} from "./layout/sections/skills/Skills";
+import {Works} from "./layout/sections/works/Works";
+import {Testimony} from "./layout/sections/testimony/Testimony";
+import {Contacts} from "./layout/sections/contacts/Contacts";
+import {Slogan} from "./layout/sections/slogan/Slogan";
+import {Footer} from "./layout/footer/Footer";
 
 
 function App() {
     return (
         <div className="App">
-            <Title>Styled-components <span>.attrs</span> method</Title>
-
-            <Form>
-                <Field/>
-                <Field/>
-                <Field/>
-            </Form>
+            <Header/>
+            <Main/>
+            <Skills/>
+            <Testimony/>
+            <Works/>
+            <Slogan/>
+            <Contacts/>
+            <Footer/>
         </div>
     );
 }
 
 export default App;
 
-const Title = styled.h1`
-    font-size: 1.5em;
-    text-align: center;
-    margin-bottom: 32px;
-    span {
-      color: #e91e63;
-    }
-`;
 
-const Form = styled.form`
-  width: 100%;
-  max-width: 500px;
-`;
-
-const Field = styled.input`
-  padding: 5px 15px;
-  margin: 10px 0;
-  width: 100%;
-  font-size: 1rem;
-`;

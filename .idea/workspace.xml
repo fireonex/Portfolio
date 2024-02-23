@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1f62d496-c536-4547-a6a7-9ff9dcae19c9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Portfolio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Container.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FlexWrapper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Link.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SectionTitle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SectionTitleBg.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SectionTitleFront.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SectionTitleWrapper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SkillText.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/icon/Icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/logo/Logo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/slider/Slider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/slider/Slider_Styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/SocialNetwork.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Sprite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/TestimonyBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/TimerApp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/img_1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/photo_2024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/footer/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/footer/Footer_Styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/header/Header_Styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/HeaderMenu_Styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/desktopMenu/DesktopMenu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/menu/Menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/mobileMenu/MobileMenu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/contacts/Contacts.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/contacts/Contacts_Styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/main/Main_Styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/skills/Skills.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/skills/Skills_Styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/skills/skill/Skill.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/slogan/Slogan.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/slogan/Slogan_Styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/testimony/Testimony.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/testimony/Testimony_Styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/works/Works.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/works/Works_Styles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/works/tabMenu/TabMenu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/sections/works/work/Work.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/Common.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/Global.styled.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/Theme.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/1-lesson-proj.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/jest/fileTransform.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/computer-tv-svgrepo-com.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/laptop-svgrepo-com.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/favicon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/Vector (1).svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/Vector.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/burger menu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2c9FjZxYNURZlRrevevHG30YM06" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo Legion/Documents/Development/Incubator-proj/Portfolio/src/layout/header/headerMenu&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;npm.test.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;http.certificates&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Lenovo Legion\\Documents\\Development\\Incubator-proj\\Portfolio\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo Legion\Documents\Development\Incubator-proj\Portfolio\src\layout\header\headerMenu" />
+      <recent name="C:\Users\Lenovo Legion\Documents\Development\Incubator-proj\Portfolio\src\layout\header" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo Legion\Documents\Development\Incubator-proj\Portfolio\src\components" />
+      <recent name="C:\Users\Lenovo Legion\Documents\Development\Incubator-proj\Portfolio\src\layout\header" />
+      <recent name="C:\Users\Lenovo Legion\Documents\Development\Incubator-proj\Portfolio\src\layout\header\headerMenu" />
+      <recent name="C:\Users\Lenovo Legion\Documents\Development\Incubator-proj\Portfolio\src\layout\header\desktopMenu" />
+      <recent name="C:\Users\Lenovo Legion\Documents\Development\Incubator-proj\Portfolio\src\layout\sections\works" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f62d496-c536-4547-a6a7-9ff9dcae19c9" name="Changes" comment="" />
+      <created>1707516023925</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707516023925</updated>
+      <workItem from="1707516026105" duration="4855000" />
+      <workItem from="1707565786882" duration="4474000" />
+      <workItem from="1707570685566" duration="11983000" />
+      <workItem from="1707636372604" duration="5870000" />
+      <workItem from="1707645456433" duration="966000" />
+      <workItem from="1707646479041" duration="65000" />
+      <workItem from="1707646618665" duration="2916000" />
+      <workItem from="1707669194469" duration="595000" />
+      <workItem from="1707671601561" duration="7924000" />
+      <workItem from="1707735298673" duration="20879000" />
+      <workItem from="1707836732745" duration="6141000" />
+      <workItem from="1708006708227" duration="9104000" />
+      <workItem from="1708076295095" duration="240000" />
+      <workItem from="1708076547274" duration="23503000" />
+      <workItem from="1708170281299" duration="14465000" />
+      <workItem from="1708264664932" duration="8087000" />
+      <workItem from="1708273351116" duration="1423000" />
+      <workItem from="1708274810902" duration="774000" />
+      <workItem from="1708337256987" duration="18130000" />
+      <workItem from="1708425843529" duration="8720000" />
+      <workItem from="1708441201516" duration="8258000" />
+      <workItem from="1708519328152" duration="6413000" />
+      <workItem from="1708532691172" duration="4506000" />
+      <workItem from="1708593233099" duration="23967000" />
+      <workItem from="1708629212963" duration="5055000" />
+      <workItem from="1708634509935" duration="321000" />
+      <workItem from="1708634906205" duration="1319000" />
+      <workItem from="1708639377187" duration="449000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
