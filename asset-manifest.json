@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.d847b3b4.css",
-    "main.js": "/Portfolio/static/js/main.d826d164.js",
+    "main.css": "/Portfolio/static/css/main.255313d7.css",
+    "main.js": "/Portfolio/static/js/main.e6c98215.js",
     "static/media/TestimonyBg.png": "/Portfolio/static/media/TestimonyBg.7708bf475b2e1eefb491.png",
     "static/media/SocialNetwork.png": "/Portfolio/static/media/SocialNetwork.ee5d1e25ba8a6b32e9fa.png",
-    "static/media/TimerApp.png": "/Portfolio/static/media/TimerApp.4bb868b3259022c29702.png",
     "static/media/img_bg_main3.webp": "/Portfolio/static/media/img_bg_main3.b10c49d2f53e0ac02215.webp",
+    "static/media/chat.png": "/Portfolio/static/media/chat.50af27695c20fbb946f3.png",
+    "static/media/todolist.png": "/Portfolio/static/media/todolist.365e61c859e2d88416e3.png",
     "static/media/Sprite.svg": "/Portfolio/static/media/Sprite.da99512b77efbb406ba4c50850dc31ba.svg",
     "static/media/img_1.webp": "/Portfolio/static/media/img_1.bdfb6d0ed926a5f9a78d.webp",
     "index.html": "/Portfolio/index.html",
-    "main.d847b3b4.css.map": "/Portfolio/static/css/main.d847b3b4.css.map",
-    "main.d826d164.js.map": "/Portfolio/static/js/main.d826d164.js.map"
+    "main.255313d7.css.map": "/Portfolio/static/css/main.255313d7.css.map",
+    "main.e6c98215.js.map": "/Portfolio/static/js/main.e6c98215.js.map"
   },
   "entrypoints": [
-    "static/css/main.d847b3b4.css",
-    "static/js/main.d826d164.js"
+    "static/css/main.255313d7.css",
+    "static/js/main.e6c98215.js"
   ]
 }
