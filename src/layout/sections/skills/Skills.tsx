@@ -6,6 +6,8 @@ import {Container} from "../../../components/Container";
 import {SectionTitle} from "../../../components/SectionTitle";
 import {S} from "./Skills_Styles"
 import {Button} from "../../../components/Button";
+import {Fade} from "react-awesome-reveal";
+
 
 
 export const Skills: React.FC = () => {
@@ -21,20 +23,17 @@ export const Skills: React.FC = () => {
                             doloribus asperiores repellat quia voluptas sit aspernatur te natus accusan.
                             maiores alias consequatur aut equatur aut perferendi.
                         </SkillText>
-                        <Button text={'About me'} iconId={'arrow'}  height={'30'} viewBox={'-4 0 40 30'}/>
-
-
-                                {/**/}
-                                {/*<Icon iconId={}  transform={'translate(0, 16)'}/>*/}
-
+                        <Button text={'About me'} iconId={'arrow'} height={'30'} viewBox={'-4 0 40 30'}/>
                     </FlexWrapper>
 
                     <S.SkillBox>
                         <FlexWrapper direction={'column'}>
-                            <Skill topWidth={'80%'} bottomWidth={'20%'} titleProps={'HTML'}/>
-                            <Skill topWidth={'75%'} bottomWidth={'25%'} titleProps={'CSS'}/>
-                            <Skill topWidth={'55%'} bottomWidth={'45%'} titleProps={'JS'}/>
-                            <Skill topWidth={'68%'} bottomWidth={'32%'} titleProps={'REACT'}/>
+                            <Fade cascade={true} damping={0.3}>
+                                <Skill topWidth={'80%'} bottomWidth={'20%'} titleProps={'HTML'}/>
+                                <Skill topWidth={'75%'} bottomWidth={'25%'} titleProps={'CSS'}/>
+                                <Skill topWidth={'55%'} bottomWidth={'45%'} titleProps={'JS'}/>
+                                <Skill topWidth={'68%'} bottomWidth={'32%'} titleProps={'REACT'}/>
+                            </Fade>
                         </FlexWrapper>
                     </S.SkillBox>
                 </FlexWrapper>

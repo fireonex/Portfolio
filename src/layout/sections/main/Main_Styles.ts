@@ -1,11 +1,10 @@
 import styled from "styled-components";
 import {Theme} from "../../../styles/Theme";
 import {font} from "../../../styles/Common";
-import MainBgPic from "../../../images/img_2.png"
-import {FlexWrapper} from "../../../components/FlexWrapper";
+import MainBgPic from "../../../images/img_bg_main3.webp"
 
-const Main = styled.div `
-    // background-color: ${Theme.colors.HeaderColor};
+const Main = styled.div`
+        // background-color: ${Theme.colors.HeaderColor};
     // display: flex;
     // min-height: 100vh;
 
@@ -14,56 +13,74 @@ const Main = styled.div `
     background-size: cover;
     display: flex;
     width: 100%;
-    max-width: 1920px;
+    //max-width: 1920px;
     min-height: 100vh;
 
-    @media ${Theme.media.mobile} {
+
+    @media screen and (max-width: 430px) and (min-width: 360px) {
+        min-height: 60vh; /* Уменьшаем высоту блока */
+        background-size: auto 100%; /* Задаем ширину изображения так, чтобы оно занимало всю высоту блока */
+        margin-top: 80px;
+    }
+
+    @media screen and (max-width: 640px) and (min-width: 430px) {
         min-height: 70vh; /* Уменьшаем высоту блока */
         background-size: auto 100%; /* Задаем ширину изображения так, чтобы оно занимало всю высоту блока */
         margin-top: 80px;
     }
 
     @media ${Theme.media.tablet} {
-        background-position: 70% 30%; 
+        background-position: 80% 30%;
     }
 
     @media screen and (max-width: 1120px) and (min-width: 769px) {
-        background-position: 60% 50%; 
+        background-position: 80% 50%;
+    }
+
+    @media screen and (min-width: 1443px) {
+        background: url(${MainBgPic}) no-repeat center center cover;
     }
 `
-const MainTextWrapper = styled.div `
+const MainTextWrapper = styled.div`
     @media ${Theme.media.mobile} {
         margin: 170px 0 0 0;
     }
 `
 
-const MainTitle = styled.h1 `
+const MainTitle = styled.h1`
     ${font({weight: 800, lineHeight: '111%', letterSpacing: '-4%', Fmax: 82, Fmin: 32})};
-    
+
     p {
         display: none;
     }
 `
 
-const MyName = styled.h2 `
+const MyName = styled.h2`
     ${font({weight: 800, lineHeight: '111%', letterSpacing: '-4%', Fmax: 70, Fmin: 28})}
-    
+
     margin-top: 30px;
-    
+
     @media ${Theme.media.mobile} {
         margin-top: 10px;
     }
 `
 
-const SmallText = styled.h4 `
-    ${font({family: "'Inconsolata', sans-serif", weight: 400, lineHeight: '111%', letterSpacing: '6px', Fmax: 25, Fmin: 10})}
-    
+const SmallText = styled.h4`
+    ${font({
+        family: "'Inconsolata', sans-serif",
+        weight: 400,
+        lineHeight: '111%',
+        letterSpacing: '6px',
+        Fmax: 25,
+        Fmin: 10
+    })}
+
     background-color: #ECECEC2B;
     display: inline-block;
     text-transform: uppercase;
 `
 
-const MainText = styled.h2 `
+const MainText = styled.h2`
     ${font({weight: 400, lineHeight: '198%', letterSpacing: '1px', Fmax: 28, Fmin: 12})}
 
     margin-top: 30px;

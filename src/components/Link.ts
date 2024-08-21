@@ -24,7 +24,9 @@ export const Link = styled.a<{ active?: boolean }>`
             right: -10px;
             bottom: 3px;
             z-index: -1;
+            transition: ${Theme.animations.transition};
         }
+        
     }
 
 
@@ -38,10 +40,14 @@ export const Link = styled.a<{ active?: boolean }>`
         right: -10px;
         bottom: 1px;
         z-index: -1;
-
+        height: 0;
+        transition: ${Theme.animations.transition};
+        
         ${props => props.active && css<{ active?: boolean }>`
             height: 3px;
+            
         `}
+        
     }
 
 `

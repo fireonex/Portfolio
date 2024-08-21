@@ -3,6 +3,7 @@ import {FlexWrapper} from "../../../components/FlexWrapper";
 import {Theme} from "../../../styles/Theme";
 import {Link} from "../../../components/Link";
 import {StyledButton} from "../../../components/Button";
+import {motion} from "framer-motion";
 
 //Works
 
@@ -14,7 +15,7 @@ const Works = styled.section`
 
 //Work
 
-const Work = styled.div`
+const Work = styled(motion.div)`
     background-color: ${Theme.colors.QuoteTitle};
     max-width: 500px;
     width: 330px;
@@ -47,9 +48,12 @@ const ImageWrapper = styled.div`
         background: rgba(0, 0, 0, 0.2);
         backdrop-filter: blur(4px);
         opacity: 0;
+        transition: ${Theme.animations.transition};
     }
 
     &:hover {
+        
+        
         &::before {
             opacity: 1;
         }
@@ -65,6 +69,7 @@ const ImageWrapper = styled.div`
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
+        transition: ${Theme.animations.transition}; 
     }
     
     @media ${Theme.media.tablet} {

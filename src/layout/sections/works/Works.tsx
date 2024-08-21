@@ -8,11 +8,10 @@ import TimerPic from "../../../images/TimerApp.png"
 import {Container} from "../../../components/Container";
 import {S} from "./Works_Styles"
 import {TabsStatusType} from "./tabMenu/TabMenu";
+import {AnimatePresence, motion} from "framer-motion"
 
 
-
-
-const tabsItems: Array<{status: TabsStatusType, title: string}> = [
+const tabsItems: Array<{ status: TabsStatusType, title: string }> = [
     {
         title: "All",
         status: "all"
@@ -36,13 +35,43 @@ const worksData = [
         title: 'Social network',
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         src: SocialNetworkPic,
-        type: "SPA"
+        type: "SPA",
+        id: 1
     },
     {
         title: 'Timer',
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         src: TimerPic,
-        type: "React"
+        type: "React",
+        id: 2
+    },
+    {
+        title: 'Social network',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        src: SocialNetworkPic,
+        type: "SPA",
+        id: 3
+    },
+    {
+        title: 'Timer',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        src: TimerPic,
+        type: "React",
+        id: 4
+    },
+    {
+        title: 'Social network',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        src: SocialNetworkPic,
+        type: "SPA",
+        id: 5
+    },
+    {
+        title: 'Timer',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        src: TimerPic,
+        type: "React",
+        id: 6
     }
 ]
 
@@ -62,7 +91,7 @@ export const Works: React.FC = () => {
         filteredWorks = worksData.filter(work => work.type === "SPA")
     }
 
-    function changeFilterStatus (value: TabsStatusType) {
+    function changeFilterStatus(value: TabsStatusType) {
         setCurrentFilterStatus(value)
     }
 
@@ -78,11 +107,30 @@ export const Works: React.FC = () => {
                          changeFilterStatus={changeFilterStatus}
                          currentFilterStatus={currentFilterStatus}/>
                 <FlexWrapper justify={'space-around'} align={'flex-start'} wrap={'wrap'}>
-                    {filteredWorks.map((w) => {
-                        return <Work title={w.title}
-                                     text={w.text}
-                                     src={w.src}/>
-                    })}
+
+                    <AnimatePresence>
+                        {filteredWorks.map((w) => {
+                            return (
+                                <motion.div
+                                    layout={true}
+                                    initial={{opacity: 0}}
+                                    animate={{opacity: 1}}
+                                    exit={{opacity: 0}}
+                                    key={w.id}
+                                >
+
+                                    <Work title={w.title}
+                                          text={w.text}
+                                          src={w.src}
+                                          key={w.id}
+                                    />
+
+
+                                </motion.div>)
+
+                        })}
+                    </AnimatePresence>
+
                 </FlexWrapper>
             </Container>
         </S.Works>

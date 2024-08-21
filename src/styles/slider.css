@@ -6,6 +6,7 @@
 .alice-carousel__prev-btn-item:hover,
 .alice-carousel__next-btn-item:hover {
     color: #A9A9A9;
+    transition: .2s ease-in-out;
 }
 
 .alice-carousel__prev-btn-item,
@@ -14,6 +15,7 @@
     color: #737373;
     font-size: 90px;
     text-align: center;
+    transition: .2s ease-in-out;
 }
 
 .alice-carousel__prev-btn {

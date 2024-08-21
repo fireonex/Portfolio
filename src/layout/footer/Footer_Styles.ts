@@ -68,6 +68,8 @@ const Copyright = styled.small`
 `
 
 const SocialItem = styled.li`
+    transition: ${Theme.animations.transition};
+    
     &:hover {
         transform: translateY(-4px);
     }
