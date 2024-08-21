@@ -25,8 +25,7 @@ export const Main: React.FC = () => {
                                 }}
                             />
                         </S.MainTitle>
-                        <S.MainText>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</S.MainText>
+                        <S.MainText>Bringing designs to life with clean code and creative solutions</S.MainText>
                     </S.MainTextWrapper>
                 </FlexWrapper>
             </Container>

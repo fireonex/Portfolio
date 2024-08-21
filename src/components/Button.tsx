@@ -13,12 +13,13 @@ type ButtonPropsType = {
     viewBox?: string; // viewBox для Icon
     transform?: string; // transform для Icon
     typeButton?: 'button' | 'submit' | 'reset'; // Тип кнопки
+    onClick?: () => void;
 }
 
 
 export const Button: React.FC<ButtonPropsType> = (props: ButtonPropsType) => {
     return (
-        <StyledButton type={props.typeButton}>
+        <StyledButton type={props.typeButton} onClick={props.onClick}>
             {props.text}
             {props.iconId && <Icon iconId={props.iconId} width={props.width} height={props.height} viewBox={props.viewBox} transform={props.transform}/>}
         </StyledButton>

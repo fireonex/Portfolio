@@ -4,79 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f62d496-c536-4547-a6a7-9ff9dcae19c9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Portfolio.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Container.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/FlexWrapper.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Link.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SectionTitle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SectionTitleBg.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SectionTitleFront.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SectionTitleWrapper.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SkillText.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/icon/Icon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/logo/Logo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/slider/Slider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/slider/Slider_Styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/SocialNetwork.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Sprite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/TestimonyBg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/TimerApp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/img_1.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/photo_2024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/footer/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/footer/Footer_Styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/header/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/header/Header_Styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/HeaderMenu_Styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/desktopMenu/DesktopMenu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/menu/Menu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/header/headerMenu/mobileMenu/MobileMenu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/sections/contacts/Contacts.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/sections/contacts/Contacts_Styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/sections/main/Main_Styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/sections/skills/Skills.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/sections/skills/Skills_Styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/sections/skills/skill/Skill.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/sections/slogan/Slogan.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/sections/slogan/Slogan_Styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/sections/testimony/Testimony.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/sections/testimony/Testimony_Styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/sections/works/Works.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/sections/works/Works_Styles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/sections/works/tabMenu/TabMenu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/sections/works/work/Work.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/Common.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/Global.styled.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/Theme.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/1-lesson-proj.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/jest/fileTransform.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/computer-tv-svgrepo-com.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/laptop-svgrepo-com.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/favicon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Vector (1).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Vector.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/burger menu.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="1f62d496-c536-4547-a6a7-9ff9dcae19c9" name="Changes" comment="change background pic">
+      <change afterPath="$PROJECT_DIR$/src/data/worksData.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/chat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/todolist.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/main/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/skills/Skills.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sections/works/Works.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sections/works/Works.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,14 +22,26 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
-        <option value="TypeScript File" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;fireonex&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:fireonex/Portfolio.git&quot;,
+    &quot;accountId&quot;: &quot;5bc33dd3-ba09-4fb5-a4e6-e112c136b4f5&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -113,27 +60,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lenovo Legion/Documents/Development/Incubator-proj/Portfolio/src/layout/header/headerMenu&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;npm.test.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;http.certificates&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Lenovo Legion\\Documents\\Development\\Incubator-proj\\Portfolio\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Development/Incubator-proj/Portfolio",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "npm.deploy.executor": "Run",
+    "npm.start.executor": "Run",
+    "npm.test.executor": "Run",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
+    "ts.external.directory.path": "C:\\Development\\Incubator-proj\\Portfolio\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lenovo Legion\Documents\Development\Incubator-proj\Portfolio\src\layout\header\headerMenu" />
@@ -147,7 +96,27 @@
       <recent name="C:\Users\Lenovo Legion\Documents\Development\Incubator-proj\Portfolio\src\layout\sections\works" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.test">
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -160,9 +129,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-WS-242.20224.342" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -200,13 +178,57 @@
       <workItem from="1708634509935" duration="321000" />
       <workItem from="1708634906205" duration="1319000" />
       <workItem from="1708639377187" duration="449000" />
+      <workItem from="1708681742292" duration="5546000" />
+      <workItem from="1708713114060" duration="8034000" />
+      <workItem from="1708764471577" duration="9304000" />
+      <workItem from="1709040912595" duration="124000" />
+      <workItem from="1709041102152" duration="409000" />
+      <workItem from="1709041628605" duration="297000" />
+      <workItem from="1709042423111" duration="88000" />
+      <workItem from="1709202406516" duration="617000" />
+      <workItem from="1711384332234" duration="1183000" />
+      <workItem from="1724082108509" duration="2599000" />
+      <workItem from="1724238963907" duration="7224000" />
+      <workItem from="1724246742973" duration="2583000" />
     </task>
+    <task id="LOCAL-00001" summary="change background pic">
+      <option name="closed" value="true" />
+      <created>1724239531746</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724239531746</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1e6b9573-f3e5-4d73-bced-832dfc20beb4" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1e6b9573-f3e5-4d73-bced-832dfc20beb4">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="change background pic" />
+    <option name="LAST_COMMIT_MESSAGE" value="change background pic" />
   </component>
 </project>

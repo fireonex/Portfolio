@@ -18,10 +18,16 @@ export const Skills: React.FC = () => {
                 <FlexWrapper wrap={'wrap'} justify={'space-between'}>
                     <FlexWrapper direction={'column'}>
                         <SkillText>
-                            Itaque earum rerum hic tenetur a sapiente delectus, ut aut
-                            reiciendis voluptatibus maiores alias consequatur aut perferendis
-                            doloribus asperiores repellat quia voluptas sit aspernatur te natus accusan.
-                            maiores alias consequatur aut equatur aut perferendi.
+                            I am a front-end Developer with a strong focus on creating clean,
+                            efficient, and visually appealing web interfaces. With a solid foundation
+                            in HTML, CSS, and JavaScript, I specialize in building modern, responsive
+                            applications using React, TypeScript, and Redux. My skills extend to unit
+                            testing and storybook testing, ensuring that every component is robust and reliable.
+
+                            I have experience working with popular libraries such as Material-UI,
+                            Ant Design, Styled-Components, Axios, Formik, and Redux-Form.
+                            I strive to deliver high-quality user experiences by combining
+                            creativity with functionality.
                         </SkillText>
                         <Button text={'About me'} iconId={'arrow'} height={'30'} viewBox={'-4 0 40 30'}/>
                     </FlexWrapper>
@@ -31,8 +37,10 @@ export const Skills: React.FC = () => {
                             <Fade cascade={true} damping={0.3}>
                                 <Skill topWidth={'80%'} bottomWidth={'20%'} titleProps={'HTML'}/>
                                 <Skill topWidth={'75%'} bottomWidth={'25%'} titleProps={'CSS'}/>
-                                <Skill topWidth={'55%'} bottomWidth={'45%'} titleProps={'JS'}/>
-                                <Skill topWidth={'68%'} bottomWidth={'32%'} titleProps={'REACT'}/>
+                                <Skill topWidth={'189%'} bottomWidth={'45%'} titleProps={'JavaScript'}/>
+                                <Skill topWidth={'94%'} bottomWidth={'45%'} titleProps={'TypeScript'}/>
+                                <Skill topWidth={'108%'} bottomWidth={'32%'} titleProps={'REACT'}/>
+                                <Skill topWidth={'190%'} bottomWidth={'32%'} titleProps={'REDUX & RTK'}/>
                             </Fade>
                         </FlexWrapper>
                     </S.SkillBox>

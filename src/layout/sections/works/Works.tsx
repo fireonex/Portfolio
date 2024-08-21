@@ -1,79 +1,13 @@
 import React, {useState} from 'react';
 import {SectionTitle} from "../../../components/SectionTitle";
-import TabMenu from "./tabMenu/TabMenu";
+import TabMenu, {TabsStatusType} from "./tabMenu/TabMenu";
 import {FlexWrapper} from "../../../components/FlexWrapper";
 import {Work} from "./work/Work";
-import SocialNetworkPic from '../../../images/SocialNetwork.png';
-import TimerPic from "../../../images/TimerApp.png"
 import {Container} from "../../../components/Container";
 import {S} from "./Works_Styles"
-import {TabsStatusType} from "./tabMenu/TabMenu";
 import {AnimatePresence, motion} from "framer-motion"
+import {tabsItems, worksData} from "../../../data/worksData";
 
-
-const tabsItems: Array<{ status: TabsStatusType, title: string }> = [
-    {
-        title: "All",
-        status: "all"
-    },
-    {
-        title: "Landing Page",
-        status: "landing"
-    },
-    {
-        title: "React",
-        status: "React"
-    },
-    {
-        title: "SPA",
-        status: "SPA"
-    }
-]
-
-const worksData = [
-    {
-        title: 'Social network',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        src: SocialNetworkPic,
-        type: "SPA",
-        id: 1
-    },
-    {
-        title: 'Timer',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        src: TimerPic,
-        type: "React",
-        id: 2
-    },
-    {
-        title: 'Social network',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        src: SocialNetworkPic,
-        type: "SPA",
-        id: 3
-    },
-    {
-        title: 'Timer',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        src: TimerPic,
-        type: "React",
-        id: 4
-    },
-    {
-        title: 'Social network',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        src: SocialNetworkPic,
-        type: "SPA",
-        id: 5
-    },
-    {
-        title: 'Timer',
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        src: TimerPic,
-        type: "React",
-        id: 6
-    }
-]
 
 export const Works: React.FC = () => {
     const [currentFilterStatus, setCurrentFilterStatus] = useState("all")
@@ -122,9 +56,10 @@ export const Works: React.FC = () => {
                                     <Work title={w.title}
                                           text={w.text}
                                           src={w.src}
+                                          domainLink={w.domainLink}
+                                          codeLink={w.codeLink}
                                           key={w.id}
                                     />
-
 
                                 </motion.div>)
 
@@ -136,5 +71,3 @@ export const Works: React.FC = () => {
         </S.Works>
     );
 };
-
-
